@@ -1,5 +1,13 @@
 # Marketing Studio
 
+## Codex support in this fork
+
+Use the [Codex-native campaign skill](codex/skills/marketing-studio-codex/SKILL.md)
+for grounded copy, channel variants, real product photos, ad planning and reviewed
+posting kits. See [the port scope, installation and engine limits](codex/ADAPTATION.md).
+The upstream Claude plugin and engine setup below remain available. The Codex port
+does not automatically install engine dependencies or publish campaigns.
+
 [![verify](https://github.com/ucsandman/marketing-studio/actions/workflows/verify.yml/badge.svg)](https://github.com/ucsandman/marketing-studio/actions/workflows/verify.yml)
 
 An agent-driven local marketing studio. The bundled Claude Code plugin adds `/marketing`
